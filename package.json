@@ -1,0 +1,19 @@
+{
+  "name": "merkle-trees",
+  "version": "1.0.0",
+  "description": "merkle trees (merkle proof) tutorial",
+  "main": "src/index.js",
+  "author": "dotdotgod",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --watch src/ src/index.js"
+  },
+  "dependencies": {
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.32"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
